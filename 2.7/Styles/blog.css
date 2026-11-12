@@ -1,0 +1,32 @@
+h3 {
+    font-size: 40px;
+    text-decoration: overline;
+}
+
+p {
+    text-align: justify;
+}
+
+.blog {
+    border: 2px solid black;
+    margin: 20px;
+    background-color: lightgray;
+    box-shadow: 10px 10px 5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second {
+    /* display: none; Remove object with it's own place*/
+    /* visibility: hidden; Remove object but keep its space */
+}
+
+.fuga {
+    border: 2px solid red;
+    /* display: block; */
+    margin: 30px;
+    /* display: inline-block; */
+}
+
+li {
+    display: inline;
+}
