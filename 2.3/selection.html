@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore CSS</title>
+    <style>
+        p {
+            background-color: rgba(189, 183, 107, 0.495);
+            color: rebeccapurple;
+            width: 500px;
+            width: 50%;
+        }
+
+        li {
+            background-color: hwb(30 36% 10%);
+            color: rebeccapurple;
+        }
+
+        #short {
+            color: royalblue;
+            text-align: center;
+        }
+
+        #embedded {
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .player {
+            font-size: larger;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="color:darkorange; background-color: aqua;">Learning Basic CSS</h3>
+    <h3 style="background-color: darkorange; color:aqua">Inline CSS</h3>
+    <p>
+        CSS meaning: Cascading Style Sheet
+    </p>
+    <!--  -->
+    <p>
+        Style is colorful
+    </p>
+    <p id="short">
+        Short form is CSS
+    </p>
+    <p class="player">
+        Needs style rule and value separated by colon(:)
+    </p>
+    <p class="player">
+        After each styles you need to use semi-colon(;)
+    </p>
+    <p class="player">
+        CSS meaning: Cascading Style Sheet
+    </p>
+    <ul>
+        <h3 style="color: blueviolet;">Type of CSS</h3>
+        <li>Inline CSS</li>
+        <li id="embedded">Internal or Embedded CSS</li>
+        <li>External CSS</li>
+    </ul>
+    <p class="player">This is a stand alone paragraph</p>
+    <p class="player">Cricket Fan</p>
+</body>
+
+</html>
+
+<!-- 
+CSS Selector
+01. class selector
+==> Call it in style sheet with dot(.). It have many names.
+02. id selector
+==> Call it in style sheet with hash(#). It has an unique name.
+03. element selector
+==>Call it in style sheet with tag name. It has lower specificity compare to class/id selectors
+04. universal selector
+==> Call it in style sheet with asterisk(*). It selects and applies styles to all elements on a webpage. Using default margins/padding
+05. grouping selector/attribute selector
+==> Apply multiple selectors at once. It denoted by comma(,) between the selectors.
+06. attribute selector
+==> Apply target elements based on their attributes and attributes values. Basic syntax is [attribute].
+-->
