@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.blog-01 {
+    color: red;
+    background-color: yellow;
+}
+
+.blog-02 {
+    color: aliceblue;
+    background-color: black;
+}
+
+.blog-03 {
+    color: aqua;
+    background-color: brown;
+}
+
+#b-2{
+    font-size: 20px;
+    text-align: justify;
+}

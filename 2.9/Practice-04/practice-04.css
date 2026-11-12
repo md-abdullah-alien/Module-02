@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img-05.jpg');
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.div-1 {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('img-01.jpg');
+    background-size: cover;
+}
+
+.div-2 {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('img-02.jpg');
+    background-size: cover;
+}
+
+.div-3 {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('img-03.jpg');
+    background-size: cover;
+}
+
+.div-4 {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('img-04.jpg');
+    background-size: cover;
+}
